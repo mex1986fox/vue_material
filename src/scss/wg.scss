@@ -1,0 +1,37 @@
+.wg-menu {
+    height: 55px;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    &-lable {
+        padding-top: 9px;
+        height: 100%;
+        display: block;
+        float: left;
+        img {
+            height: 37px;
+        }
+    }
+    &-search {
+        display: block;
+        padding-top: 8px;
+        height: 100%;
+    }
+    &-burger{
+        padding: 5px 10px 0 10px;
+        height: 100%;
+        float: left;
+        display: block;
+    }
+    &-profile{
+        padding: 4px;
+        display: block;
+        width: auto;
+        position: absolute;
+        float: right;
+        right: -15px;
+    }
+    &-modal{
+
+    }
+}
